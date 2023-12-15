@@ -1,4 +1,4 @@
-<?= $this->extend("layouts/$account_type") ?>
+<?= $this->extend("layouts/" . $account_type . "php") ?>
 
 <?= $this->section("content") ?>
 

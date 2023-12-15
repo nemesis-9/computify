@@ -2,7 +2,7 @@
 
 <?= $this->section("content") ?>
 
-<h1>Build Page for
+<h1>Whistlist for
     <?= $account_type ?> Accounts
 </h1>
 
