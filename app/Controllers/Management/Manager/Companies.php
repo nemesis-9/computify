@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Controllers\Management\Manager;
+
+use App\Controllers\BaseController;
+
+class Companies extends BaseController
+{
+    public function index()
+    {
+    }
+
+    public function create()
+    {
+    }
+
+    public function view($id)
+    {
+    }
+
+    public function edit($id)
+    {
+    }
+
+    public function delete($id)
+    {
+    }
+}
