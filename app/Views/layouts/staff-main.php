@@ -8,4 +8,9 @@
 </head>
 
 <body>
-    <h3>Staff header</h3>
+
+    <?= $this->renderSection("content") ?>
+
+</body>
+
+</html>

@@ -8,4 +8,9 @@
 </head>
 
 <body>
-    <h3>User header</h3>
+
+    <?= $this->renderSection("content") ?>
+
+</body>
+
+</html>

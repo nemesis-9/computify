@@ -8,4 +8,9 @@
 </head>
 
 <body>
-    <h3>Guest Header</h3>
+
+    <?= $this->renderSection("content") ?>
+
+</body>
+
+</html>
