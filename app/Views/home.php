@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?= $this->extend("layouts/guest-main.php") ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
+<?= $this->section("content") ?>
 
-<body>
-    <h1>This is Home page</h1>
-</body>
+<h1>Guest Home Page</h1>
 
-</html>
+<?= $this->endSection() ?>
