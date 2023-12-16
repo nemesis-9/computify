@@ -7,6 +7,7 @@ class Register extends BaseController
 
     public function index()
     {
+        return view("register");
     }
 
 }

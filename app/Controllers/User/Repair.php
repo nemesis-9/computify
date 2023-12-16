@@ -8,6 +8,7 @@ class Repair extends BaseController
 {
     public function index()
     {
+        return view("user/repair");
     }
 
     public function create()

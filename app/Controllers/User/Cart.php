@@ -8,6 +8,7 @@ class Cart extends BaseController
 {
     public function index()
     {
+        return view("user/cart");
     }
 
     public function add()

@@ -8,6 +8,7 @@ class Build extends BaseController
 {
     public function index()
     {
+        return view("user/build");
     }
 
     public function create()

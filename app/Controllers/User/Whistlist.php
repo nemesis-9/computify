@@ -8,6 +8,7 @@ class Whistlist extends BaseController
 {
     public function index()
     {
+        return view("user/whistlist");
     }
 
     public function add()
