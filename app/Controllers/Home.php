@@ -4,9 +4,15 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
-    public function index()
+    public function index($acc_type = "guest")
     {
-        return view('home');
+        if ($acc_type == "guest") {
+            return view("home");
+        } elseif ($acc_type == "user") {
+            return view("user/home");
+        } else {
+            return view("errors/html/error_404");
+        }
     }
 
     public function login()
