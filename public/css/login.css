@@ -1,0 +1,153 @@
+@import url('main.css');
+
+* {
+    font-family: 'Poppins', serif;
+    font-size: 15px;
+}
+
+html, body {
+    background-image: url(../images/loginbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 10px 0;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+}
+
+.input-field input {
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.input-field input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0 20px 0;
+}
+
+.input-btn input {
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 45px;
+    outline: none;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: background-color 300ms ease;
+}
+
+.input-btn input:hover {
+    box-shadow: 1px 5px 7 1px rgba(0, 0, 0, 0.5);
+    background-color: rgb(38, 226, 114);
+}
+
+.remem-forg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.remember-sect {
+    display: flex;
+}
+
+.remember-sect label {
+    color: #fff;
+    padding-left: 5px;
+}
+
+.remember-sect input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px; 
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.remember-sect input:checked {
+    background-color: salmon;
+}
+
+.forgot-sect a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 300ms ease; 
+}
+
+.forgot-sect a:hover {
+    color: rgb(252, 225, 18);
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    align-items: baseline;
+    font-size: small;
+    margin-top: 8px;
+    padding: 5px 0 5px 0;
+}
+
+.register a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 15px 0 10px 15px;
+    transition: color 300ms ease; 
+}
+
+.register a:hover {
+    color: rgb(249, 110, 4);
+}
+
