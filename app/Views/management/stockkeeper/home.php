@@ -1,4 +1,4 @@
-<?= $this->extend("layouts/stockkeeper-main.php") ?>
+<?= $this->extend("layouts/staff-main.php") ?>
 
 <?= $this->section("content") ?>
 
